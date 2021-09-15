@@ -9,7 +9,7 @@
               Far far away, behaind the
               word mountains.
             </p>
-            <button class="btn btn-dark">get started</button>
+           <Button title='get started' type="btn-dark"/>
         </div>
       </div>
     </div>
@@ -17,8 +17,12 @@
 </template>
 
 <script>
+import Button from './Button.vue';
 export default {
   name: "GetStartedSection",
+  components:{
+    Button,
+  },
 };
 </script>
 

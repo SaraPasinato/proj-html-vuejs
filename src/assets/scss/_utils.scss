@@ -38,9 +38,10 @@ hr{
    text-transform: uppercase;
    border: 2px solid $bg-blue-dark;
    margin: 20px 0;
+   cursor: pointer;
 }
 
-.btn.btn-dark{
+.btn-dark{
     background-color: $bg-blue-dark;
     color: $t-light-gray;
 }

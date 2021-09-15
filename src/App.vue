@@ -5,8 +5,9 @@
    <!-- main--->
    <main>
      <!-- Jumbotron component-->
-
-     <!-- section consultants component ( img + card component )-->
+    
+     <!-- >>TODO<< section consultants component ( img + card component )-->
+    <GoalsSection/>
      <!-- section about us component  -->
      <!-- section project component (figure card component)-->
      <!-- section testimonial component ( testimonial card component) -->
@@ -28,11 +29,13 @@ import Header from './components/Header.vue';
 import FooterLink from './components/FooterLink.vue';
 import FooterTerms from './components/FooterTerms.vue';
 import GetStartedSection from './components/GetStartedSection.vue';
+import GoalsSection from './components/GoalsSection.vue';
 
 export default {
   name: 'App',
   components: {
     Header,
+    GoalsSection,
     GetStartedSection,
     FooterLink,
     FooterTerms,

@@ -1,6 +1,18 @@
 <template>
   <section id="get-started">
-
+    <div class="row">
+      <div class="col">
+        <h3>Let's talk about work</h3>
+        <div class="items">
+            <p>
+              A wonderful serenity has taken possession
+              Far far away, behaind the
+              word mountains.
+            </p>
+            <button class="btn btn-dark">get started</button>
+        </div>
+      </div>
+    </div>
   </section>
 </template>
 
@@ -11,13 +23,37 @@ export default {
 </script>
 
 <style lang="scss">
-#get-started{
-    height: 50vh;
-    width: 100%;
+@import "../assets/scss/vars";
+#get-started {
+  height: 40vh;
+  width: 100%;
 
-    background-image: url('../assets/images/business-people-working-together-on-project-and-B3MZ4TX.jpg');
-    background-position: center;
-    background-size:cover;
+  background-image: url("../assets/images/business-people-working-together-on-project-and-B3MZ4TX.jpg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+
+  .row {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+     .col{
+       
+       .items{
+           padding: 0 15%;
+
+           p{
+               color:$t-light-gray;
+               font-weight: lighter;
+               line-height: 26px;
+           }
+       }
+    }
+  }
+
+ 
 }
-
 </style>

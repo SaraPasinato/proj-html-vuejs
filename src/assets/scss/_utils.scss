@@ -10,13 +10,12 @@ ul li{
       font-size:.9em;
   }
 }
-
-.active{
-    border-top: 2px solid $t-light;
+h3{
+    text-transform: uppercase;
+    font-size: 2.7rem;
     color: $t-light;
-  }
-
-  small{
+}
+small{
     color: $t-gray-3;
     display: block;
     font-weight: lighter;
@@ -26,4 +25,22 @@ hr{
     width:100%;
     border: 0.1px thin $t-gray-3;
 
+}
+
+// btns + a
+.active{
+    border-top: 2px solid $t-light;
+    color: $t-light;
+  }
+
+.btn{
+   padding: 15px 50px;
+   text-transform: uppercase;
+   border: 2px solid $bg-blue-dark;
+   margin: 20px 0;
+}
+
+.btn.btn-dark{
+    background-color: $bg-blue-dark;
+    color: $t-light-gray;
 }

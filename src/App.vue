@@ -15,6 +15,7 @@
    <!--TODO >>now<< Footer (contains links Footer + TermsFooter)--->
    <footer>
     <FooterLink :links="links"/>
+    <FooterTerms/>
    </footer>
   </div>
 </template>
@@ -22,12 +23,14 @@
 <script>
 import Header from './components/Header.vue';
 import FooterLink from './components/FooterLink.vue';
+import FooterTerms from './components/FooterTerms.vue';
 
 export default {
   name: 'App',
   components: {
     Header,
     FooterLink,
+    FooterTerms,
   },
   data(){
     return{

@@ -1,7 +1,7 @@
 ul li{
  list-style-type: none;
   margin: 0 10px;
-  padding: 30px 0;
+  padding: 8% 0;
   a{
       text-decoration: none;
       color:$t-gray-1;
@@ -17,6 +17,13 @@ ul li{
   }
 
   small{
-    color: $t-gray-1;
+    color: $t-gray-3;
     display: block;
+    font-weight: lighter;
+}
+
+hr{
+    width:100%;
+    border: 0.1px thin $t-gray-3;
+
 }

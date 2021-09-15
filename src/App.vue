@@ -1,20 +1,23 @@
 <template>
-  <div id="app" class="container">
+  <div id="app">
    <!--Header component contai >> TODO: active on click --->
    <Header :links="links"/>
    <!-- main--->
    <main>
-     <!--  Jumbotron component-->
+     <!-- Jumbotron component-->
+
      <!-- section consultants component ( img + card component )-->
      <!-- section about us component  -->
      <!-- section project component (figure card component)-->
      <!-- section testimonial component ( testimonial card component) -->
      <!-- section blog component  (figure card component + (date + card component)-->
-     <!--section lets talk component -->
+     <!--section lets-talk component -->
+    <GetStartedSection />
    </main>
-   <!--TODO >>now<< Footer (contains links Footer + TermsFooter)--->
-   <footer>
+   <!-- Footer (contains links Footer + TermsFooter)--->
+   <footer class="container">
     <FooterLink :links="links"/>
+    <hr>
     <FooterTerms/>
    </footer>
   </div>
@@ -24,11 +27,13 @@
 import Header from './components/Header.vue';
 import FooterLink from './components/FooterLink.vue';
 import FooterTerms from './components/FooterTerms.vue';
+import GetStartedSection from './components/GetStartedSection.vue';
 
 export default {
   name: 'App',
   components: {
     Header,
+    GetStartedSection,
     FooterLink,
     FooterTerms,
   },
@@ -80,7 +85,7 @@ export default {
 @import '/assets/scss/style.scss';
 
 footer{
-   height: 50vh;
+   height: 20vh;
    width: 100%;
 }
 </style>

@@ -27,7 +27,9 @@ export default {
         justify-content: space-between;
         align-items: center;
     }
-   
+    .terms-items{
+      padding-top: 30px;
+    }
     .copyright-items small{
         align-self: flex-end;
     }

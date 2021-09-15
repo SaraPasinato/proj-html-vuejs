@@ -45,6 +45,7 @@ export default {
 <style lang="scss">
 #footer-links{
     height: 60%;
+    margin: 30px 0;
 
     .row{
         display: flex;

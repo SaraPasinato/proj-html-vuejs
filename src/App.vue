@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="container">
-   <!--TODO >>now<< Header component contai--->
+   <!--Header component contai >> TODO: active on click --->
    <Header :links="links"/>
    <!-- main--->
    <main>
@@ -12,17 +12,22 @@
      <!-- section blog component  (figure card component + (date + card component)-->
      <!--section lets talk component -->
    </main>
-   <!-- Footer (contains links Footer + TermsFooter)--->
+   <!--TODO >>now<< Footer (contains links Footer + TermsFooter)--->
+   <footer>
+    <FooterLink :links="links"/>
+   </footer>
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue';
+import FooterLink from './components/FooterLink.vue';
 
 export default {
   name: 'App',
   components: {
     Header,
+    FooterLink,
   },
   data(){
     return{
@@ -71,5 +76,8 @@ export default {
 <style lang="scss">
 @import '/assets/scss/style.scss';
 
-
+footer{
+   height: 50vh;
+   width: 100%;
+}
 </style>

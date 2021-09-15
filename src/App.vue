@@ -7,7 +7,7 @@
      <!-- Jumbotron component-->
     
      <!-- >>TODO<< section consultants component ( img + card component )-->
-    <GoalsSection/>
+    <GoalsSection :cards="goalCard"/>
      <!-- section about us component  -->
      <!-- section project component (figure card component)-->
      <!-- section testimonial component ( testimonial card component) -->
@@ -77,6 +77,24 @@ export default {
           link:'#',
           current:false,
 
+        },
+      ],
+      goalCard:[
+        { 
+          title:'Statistical consuliting',
+          desc:'When,while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable follage of my trees,and but a',
+        },
+        {
+          title:'banking consulting',
+          desc:'When,while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable follage of my trees,and but a',
+        },
+        {
+          title:'Digital Consulting',
+          desc:'When,while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable follage of my trees,and but a',
+        },
+        {
+          title:'Enterprise consuliting',
+          desc:'When,while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable follage of my trees,and but a',
         },
       ],
     }

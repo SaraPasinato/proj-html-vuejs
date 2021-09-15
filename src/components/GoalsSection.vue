@@ -1,54 +1,46 @@
 <template>
   <section id="goals">
-  <div class="row-start container-sm">
-      <div class="col"> 
-          <h4>Our Consultants can help you</h4>
+    <div class="container-sm">
+      <h4>Our consultants can help you</h4>
+      <div class="row">
+       <CardGoal v-for="card in cards" :key="card.title" :item="card"/>
+    
       </div>
-  </div>
-  <div class="row container-sm">
-      <div class="col"> 
-          <!-- TODO cards components -->
-          <h4>Our Consultants can help you</h4>
-      </div>
-  </div>
+    </div>
   </section>
 </template>
 
 <script>
+import CardGoal from "./CardGoal.vue";
+
 export default {
-  name:'GoalsSection',
-}
+  name: "GoalsSection",
+  props:["cards"],
+  components: {
+    CardGoal,
+  },
+};
 </script>
 
 <style lang="scss">
-@import '../assets/scss/vars';
-#goals{
-    height: 80vh;
-    width:100%;
-    padding: 100px;
-    background-color: $bg-light;
+@import "../assets/scss/vars";
+#goals {
+  height: 80vh;
+  width: 100%;
+  padding: 50px 0;
+  background-color: $bg-light;
 
-    .row-start {
-    height: 20%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-    }
-    .row {
-    height: 80%;
+  .row {
+    height: 60vh;
+    margin-top: 4em;
+
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-color: palegoldenrod;
-    }
 
-    h4{
-        color: $t-black;
-        font-size: 1.7em;
-        text-transform: uppercase;
-        
-    }
+  
+  }
+  
 }
 </style>

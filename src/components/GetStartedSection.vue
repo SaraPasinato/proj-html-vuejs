@@ -49,11 +49,6 @@ export default {
        .items{
            padding: 0 15%;
 
-           p{
-               color:$t-light-gray;
-               font-weight: lighter;
-               line-height: 26px;
-           }
        }
     }
   }

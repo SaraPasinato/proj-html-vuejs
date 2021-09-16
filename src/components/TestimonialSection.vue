@@ -63,6 +63,7 @@ export default {
     #gallery{
         height: 60%;
         margin-left:20%;
+        margin-top: 30px;
         width:80%;
         justify-content: flex-end;
         align-items: center;

@@ -143,19 +143,19 @@ export default {
           team:'Amazon Inc.',
           author:'Vera Ducan',
           title:'Canadian Consulting From acquired by UK Giant',
-          desc:'When,while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable follage of my trees,and but a...',
+          desc:'When,while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable follage of my trees,and but a thousand unknown plants are noticed when I hear the buzz of the little',
         },
         { 
           team:'Amazon Inc.',
           author:'Vera Ducan',
           title:'Canadian Consulting From acquired by UK Giant',
-          desc:'When,while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable follage of my trees,and but a...',
+          desc:'When,while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable follage of my trees,and but a thousand unknown plants are noticed when I hear the buzz of the little',
         },
         { 
           team:'Amazon Inc.',
           author:'Vera Ducan',
           title:'Canadian Consulting From acquired by UK Giant',
-          desc:'When,while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable follage of my trees,and but a...',
+          desc:'When,while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable follage of my trees,and but a thousand unknown plants are noticed when I hear the buzz of the little',
         },  
       ],
     }

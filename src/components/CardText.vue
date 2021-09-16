@@ -22,10 +22,9 @@ export default {
 .card {
   flex-basis: calc(100% / 4);
   height: 70%;
- background-color: paleturquoise;
   margin: 0 20px;
   .items {
-    padding: 10% 20%;
+    padding: 10% 15%;
 
     blockquote{
       margin-bottom:30px;

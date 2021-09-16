@@ -6,9 +6,10 @@
    <main>
      <!-- Jumbotron component-->
     <Jumbotron/>
-     <!-- section consultants component ( img + card component )-->
+     <!-- section consultants component (cardGoal component )-->
     <GoalsSection :cards="goalCard"/>
-     <!-- section about us component  -->
+     <!-- >>NOW<< section about us component  -->
+    <AboutUsSection  :text="textPlaceholder"/>
      <!-- section project component (figure card component)-->
      <!-- section testimonial component ( testimonial card component) -->
      <!-- section blog component  (figure card component + (date + card component)-->
@@ -31,12 +32,14 @@ import FooterTerms from './components/FooterTerms.vue';
 import GetStartedSection from './components/GetStartedSection.vue';
 import GoalsSection from './components/GoalsSection.vue';
 import Jumbotron from './components/Jumbotron.vue';
+import AboutUsSection from './components/AboutUsSection.vue';
 
 export default {
   name: 'App',
   components: {
     Header,
     GoalsSection,
+    AboutUsSection,
     GetStartedSection,
     FooterLink,
     FooterTerms,
@@ -44,6 +47,7 @@ export default {
   },
   data(){
     return{
+      textPlaceholder:'When,while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a thousand unknown plants are noticed when I hear the buzz of the little world among the staks, and grow familiar inderscibable forms of  the insects and flies, then I feel  the presence of the Alimighty.',
       links:[
         {
           title:'home',

@@ -17,6 +17,14 @@ h1{
    
     margin: 20px 0;
 }
+h2{
+    text-transform: uppercase;
+    font-size: 3.0em;
+    color: $t-light; 
+   
+    margin: 20px 0;
+}
+
 h3{
     text-transform: uppercase;
     font-size: 2.7rem;
@@ -35,7 +43,7 @@ h5{
     text-transform: uppercase;
 }
 p{
-    color:$t-light-gray;
+    color:$t-gray-3;
     font-weight: lighter;
     line-height: 26px;
 }

@@ -12,9 +12,10 @@
     <AboutUsSection  :text="textPlaceholder"/>
     <!--  section Help component-->
     <HelpSection :text="textPlaceholderSmall"/>
-     <!-- >>HERE<< section project component ( cardFigure component)-->
+     <!-- section project component ( cardFigure component)-->
     
      <!-- section testimonial component ( testimonial card component) -->
+     <TestimonialSection />
      <!-- section blog component  (figure BlogCard component )-->
     <BlogSection  :cards="blogCards"/>
      <!--section lets-talk component -->
@@ -39,6 +40,7 @@ import Jumbotron from './components/Jumbotron.vue';
 import AboutUsSection from './components/AboutUsSection.vue';
 import HelpSection from './components/HelpSection.vue';
 import BlogSection from './components/BlogSection.vue';
+import TestimonialSection from './components/TestimonialSection.vue';
 
 export default {
   name: 'App',
@@ -52,6 +54,7 @@ export default {
     FooterLink,
     FooterTerms,
     Jumbotron,
+    TestimonialSection,
   },
   data(){
     return{

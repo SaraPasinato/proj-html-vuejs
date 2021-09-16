@@ -5,7 +5,7 @@
    <!-- main--->
    <main>
      <!-- Jumbotron component-->
-    
+    <Jumbotron/>
      <!-- section consultants component ( img + card component )-->
     <GoalsSection :cards="goalCard"/>
      <!-- section about us component  -->
@@ -30,6 +30,7 @@ import FooterLink from './components/FooterLink.vue';
 import FooterTerms from './components/FooterTerms.vue';
 import GetStartedSection from './components/GetStartedSection.vue';
 import GoalsSection from './components/GoalsSection.vue';
+import Jumbotron from './components/Jumbotron.vue';
 
 export default {
   name: 'App',
@@ -39,6 +40,7 @@ export default {
     GetStartedSection,
     FooterLink,
     FooterTerms,
+    Jumbotron,
   },
   data(){
     return{
@@ -108,6 +110,9 @@ export default {
 
 <style lang="scss">
 @import '/assets/scss/style.scss';
+#app{
+  position: relative;
+}
 
 footer{
    height: 20vh;

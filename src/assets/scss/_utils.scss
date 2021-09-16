@@ -66,6 +66,11 @@ hr{
    margin: 20px 0;
    cursor: pointer;
 }
+.btn-icon{
+   padding: 11px 13px;
+   cursor: pointer;
+   margin: 15px;
+}
 
 .btn-dark{
     background-color: $bg-blue-dark;
@@ -75,4 +80,13 @@ hr{
     background-color: $bg-green;
     color: $t-dark-blue;
 }
+.btn-outline-green{
+    background-color: $bg-blue-dark;
+    color: $t-green;
+    border: 1px solid $border-light;
+}
 
+
+.circle{
+    border-radius: 50%;
+}

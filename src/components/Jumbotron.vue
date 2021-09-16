@@ -10,6 +10,7 @@
                <h1> the best business consulting</h1>
                <div class="btn-control">
                    <Button type="btn-green" title="Read more"/>
+                   <ButtonIcon type="btn-outline-green circle" icon="fas fa-play"/>
                </div>
            </div>
        </div>
@@ -20,10 +21,12 @@
 
 <script>
 import Button from './Button.vue';
+import ButtonIcon from './ButtonIcon.vue';
 export default {
  name:"Jumbotron",
  components:{
      Button,
+     ButtonIcon,
  }
 }
 </script>
@@ -56,6 +59,7 @@ export default {
 
 
                 h5{
+                    font-weight: normal;
                     font-size: .9em;
                     letter-spacing: 0.2em;
                     color:$t-gray-1;

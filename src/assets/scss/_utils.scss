@@ -88,6 +88,12 @@ hr{
     background-color: $bg-green;
     color: $t-dark-blue;
 }
+.btn-red{
+    background-color: $bg-red;
+    color: $t-light;
+    border-color: $bg-red;
+}
+
 .btn-outline-green{
     background-color: $bg-blue-dark;
     color: $t-green;

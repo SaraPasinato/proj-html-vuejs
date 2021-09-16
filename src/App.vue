@@ -8,8 +8,10 @@
     <Jumbotron/>
      <!-- section consultants component (cardGoal component )-->
     <GoalsSection :cards="goalCard"/>
-     <!-- >>NOW<< section about us component  -->
+     <!-- section about us component  -->
     <AboutUsSection  :text="textPlaceholder"/>
+    <!--  section Help component-->
+    <HelpSection :text="textPlaceholderSmall"/>
      <!-- section project component (figure card component)-->
      <!-- section testimonial component ( testimonial card component) -->
      <!-- section blog component  (figure card component + (date + card component)-->
@@ -33,6 +35,7 @@ import GetStartedSection from './components/GetStartedSection.vue';
 import GoalsSection from './components/GoalsSection.vue';
 import Jumbotron from './components/Jumbotron.vue';
 import AboutUsSection from './components/AboutUsSection.vue';
+import HelpSection from './components/HelpSection.vue';
 
 export default {
   name: 'App',
@@ -40,6 +43,7 @@ export default {
     Header,
     GoalsSection,
     AboutUsSection,
+    HelpSection,
     GetStartedSection,
     FooterLink,
     FooterTerms,
@@ -48,6 +52,7 @@ export default {
   data(){
     return{
       textPlaceholder:'When,while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a thousand unknown plants are noticed when I hear the buzz of the little world among the staks, and grow familiar inderscibable forms of  the insects and flies, then I feel  the presence of the Alimighty.',
+      textPlaceholderSmall:'When,while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a thousand unknown ',
       links:[
         {
           title:'home',

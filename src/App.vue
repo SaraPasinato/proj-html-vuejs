@@ -126,7 +126,7 @@ export default {
         },
        
         { 
-          url:'business-people-working-together-on-project-and-B3MZ4TX.jpg',
+          url:'business-people-working-together-on-project-and-5FHSKBL-1390.jpg',
           date:'july 4, 2019',
           author:'paul',
           title:'Canadian Consulting From acquired by UK Giant',

@@ -65,10 +65,7 @@ export default {
     }
   }
   #gallery {
-    height: 80%;
-    
-    background-color: palegoldenrod;
-
+    height: 60%;
     justify-content: center;
   }
   .row {

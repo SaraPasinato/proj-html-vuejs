@@ -43,6 +43,13 @@ h5{
     font-weight: bold;
     text-transform: uppercase;
 }
+h6{
+    color: $t-black;
+    font-size: 1em;
+    font-weight: normal;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
 p{
     color:$t-gray-3;
     font-weight: lighter;

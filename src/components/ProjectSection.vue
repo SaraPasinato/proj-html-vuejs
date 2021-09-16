@@ -15,18 +15,21 @@
         </div>
       </div>
     </div>
-    <div id="gallery row">
-
+    <div id="gallery" class="row">
+      <CardProject  :key="index" v-for="(card,index) in cards" :card="card"/>
     </div>
   </section>
 </template>
 
 <script>
 import ButtonIcon from "../components/ButtonIcon.vue";
+import CardProject from "../components/CardProject.vue";
 export default {
   name: "ProjectSection",
+  props:['cards'],
   components: {
     ButtonIcon,
+    CardProject,
   },
 };
 </script>
@@ -36,7 +39,7 @@ export default {
 
 #project {
   height: 50vh;
-  margin-bottom: 40px;
+  margin-bottom: 10%;
   #title {
     height: 20%;
     .col-12 {
@@ -69,10 +72,15 @@ export default {
       justify-content: center;
     }
   }
-
   #gallery{
-      height: 80%;
-      background-color: peachpuff;
+      margin-top: 5%;
+      height: 70%;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .row{
+    display: flex;
   }
 }
 </style>

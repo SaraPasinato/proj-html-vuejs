@@ -13,7 +13,7 @@
     <!--  section Help component-->
     <HelpSection :text="textPlaceholderSmall"/>
      <!-- section project component ( cardFigure component)-->
-    <ProjectSection />
+    <ProjectSection  :cards="projectCards"/>
      <!-- section testimonial component ( testimonial card component) -->
      <TestimonialSection :cards="userCards"/>
      <!-- section blog component  (figure BlogCard component )-->
@@ -159,6 +159,23 @@ export default {
           title:'Canadian Consulting From acquired by UK Giant',
           desc:'When,while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable follage of my trees,and but a thousand unknown plants are noticed when I hear the buzz of the little',
         },  
+      ],
+      projectCards:[
+        {
+          url:'221bf0b7-8134-43bb-936a-5acbe42db64a-790x592.jpg',
+          title:'Purinky Products',
+          category:'uncategorized',
+        },
+        {
+          url:'DRY-1-790x592.jpg',
+          title:'Photography Products',
+          category:'photo',
+        },
+        {
+          url:'z1el4c4p-790x592.jpg',
+          title:'Vizeon Products',
+          category:'web',
+        },
       ],
     }
   },

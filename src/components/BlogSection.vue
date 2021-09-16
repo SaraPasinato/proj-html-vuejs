@@ -14,7 +14,7 @@
     </div>
     <div id="gallery" class="row">
       <!-- BlogCard -->
-      <CardBlog v-for="card in cards" :key="card.title" :card="card"/>
+      <CardBlog v-for="card in cards" :key="card.url" :card="card"/>
     </div>
   </section>
 </template>

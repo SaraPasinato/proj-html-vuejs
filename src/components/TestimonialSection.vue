@@ -13,7 +13,7 @@
       </div>
     </div>
  <div id="gallery" class="row">
-        <CardText v-for="card in cards" :key="card.title" :card="card" />      
+        <CardText v-for="(card,index) in cards" :key="index" :card="card" />      
  </div>
   </section>
 </template>

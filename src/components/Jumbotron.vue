@@ -1,5 +1,5 @@
 <template>
-  <section id="jumbotron">
+  <section id="jumbotron" class="container-fluid">
    <div class="row">
        <div class="col-6">
            <div class="items">
@@ -14,7 +14,7 @@
                </div>
            </div>
        </div>
-       <div class="col jumbo-bg"></div>
+       <div class="col jumbo-bg"/>
    </div>
   </section>
 </template>
@@ -46,7 +46,7 @@ export default {
         }
        
         .col-6{ 
-            flex-basis: calc(100%/2); 
+            width: 1000px; 
                position: relative;
 
             .items{

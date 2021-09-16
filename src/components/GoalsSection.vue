@@ -43,8 +43,7 @@ export default {
   }
    .line{
        border: 1px solid $bg-yellow;
-       display: inline-block;
-       width:50%;
+       width:40%;
        position: absolute;
        right:0;
        top:12.5%;

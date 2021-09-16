@@ -1,7 +1,7 @@
 <template>
   <div class="card-goal">
     <div class="row-card">
-        <img src="../assets/images/cropped-cropped-icon-270x270.png" :alt="item.title">
+        <img :src="getImage" :alt="item.title">
       <div class="col-6">
         <div class="items">
           <h5>{{item.title}}</h5>
@@ -16,6 +16,11 @@
 export default {
   name: "CardGoal",
   props:['item'],
+  computed:{
+    getImage(){
+      return require("../assets/images/" + this.item.url);
+    }
+  },
 };
 </script>
 

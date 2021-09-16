@@ -81,18 +81,22 @@ export default {
       ],
       goalCard:[
         { 
+          url:'cropped-cropped-icon-270x270.png',
           title:'Statistical consuliting',
           desc:'When,while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable follage of my trees,and but a',
         },
         {
+          url:'cropped-cropped-icon-270x270.png',
           title:'banking consulting',
           desc:'When,while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable follage of my trees,and but a',
         },
         {
+          url:'cropped-cropped-icon-270x270.png',
           title:'Digital Consulting',
           desc:'When,while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable follage of my trees,and but a',
         },
         {
+          url:'cropped-cropped-icon-270x270.png',
           title:'Enterprise consuliting',
           desc:'When,while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable follage of my trees,and but a',
         },

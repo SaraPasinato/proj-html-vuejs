@@ -1,6 +1,7 @@
 <template>
   <header  class="container">
     <div class="row">
+    
       <img src="../assets/images/logotype.png" alt="logo phlox" />
 
       <ul class="row">
@@ -27,7 +28,6 @@ export default {
 <style lang="scss">
 header {
   height: 10vh;
-  border: 2px solid white;
   background-color: transparent;
 
   .row {

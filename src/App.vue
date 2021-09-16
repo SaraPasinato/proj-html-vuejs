@@ -12,7 +12,7 @@
     <AboutUsSection  :text="textPlaceholder"/>
     <!--  section Help component-->
     <HelpSection :text="textPlaceholderSmall"/>
-     <!-- section project component (figure card component)-->
+     <!-- >>HERE<< section project component (figure card component)-->
      <!-- section testimonial component ( testimonial card component) -->
      <!-- section blog component  (figure card component + (date + card component)-->
      <!--section lets-talk component -->

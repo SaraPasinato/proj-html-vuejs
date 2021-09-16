@@ -6,7 +6,7 @@
    <main>
      <!-- Jumbotron component-->
     
-     <!-- >>TODO<< section consultants component ( img + card component )-->
+     <!-- section consultants component ( img + card component )-->
     <GoalsSection :cards="goalCard"/>
      <!-- section about us component  -->
      <!-- section project component (figure card component)-->

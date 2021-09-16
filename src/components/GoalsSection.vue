@@ -28,13 +28,13 @@ export default {
 #goals {
   height: 80vh;
   width: 100%;
-  padding: 50px 0;
+  padding: 80px 0;
   background-color: $bg-light;
   position: relative;
 
   .row {
     height: 60vh;
-    margin-top: 4em;
+    margin-top: 5em;
 
     display: flex;
     justify-content: center;
@@ -47,7 +47,7 @@ export default {
        width:50%;
        position: absolute;
        right:0;
-       top:8.5%;
+       top:12.5%;
    }
 }
 </style>

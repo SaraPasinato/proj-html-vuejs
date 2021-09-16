@@ -71,8 +71,8 @@ export default {
                 }
                .line{
                   background-color:$t-green;
-                  width:5%;
-                  height: 3px;
+                  width:7%;
+                  height: 2px;
                   margin-right: 10px;
                }
 

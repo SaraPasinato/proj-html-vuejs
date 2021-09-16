@@ -15,7 +15,7 @@
      <!-- >>HERE<< section project component ( cardFigure component)-->
     
      <!-- section testimonial component ( testimonial card component) -->
-     <!-- section blog component  (figure card component + (date + card component)-->
+     <!-- section blog component  (figure BlogCard component )-->
     <BlogSection  :cards="blogCards"/>
      <!--section lets-talk component -->
     <GetStartedSection/>

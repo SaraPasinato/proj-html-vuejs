@@ -7,7 +7,7 @@
           <div class="line" />
         </div>
         <div class="line-item">
-          <h3>What's the customer say about our work</h3>
+          <h3>What's the customer say <br/>about our work</h3>
 
         </div>
       </div>
@@ -36,6 +36,7 @@ export default {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        text-align: right;
         h5 {
           font-weight: normal;
           font-size: 0.9em;
@@ -45,9 +46,9 @@ export default {
 
         .line {
           background-color: $t-green;
-          width: 4%;
+          width: 7%;
           height: 2px;
-          margin-right: 10px;
+          margin-right: 1px;
         }
       }
 

@@ -33,7 +33,7 @@ export default {
 @import "../assets/scss/vars";
 
 #help{
-    height: 30vh;
+    height: 40vh;
     background-color: transparent;
 
     .row{
@@ -61,7 +61,7 @@ export default {
         }
         .box-item{
             width:35%;
-            text-align: justify;
+            text-align: start;
         }
         .col-6{
            flex-basis: 50%;
@@ -78,7 +78,10 @@ export default {
     }
   }
   p{
-      color: $t-dark-blue;
+    color: $t-dark-blue;
+    font-weight: normal;
+    font-size: .8em;
+     padding: 0 2%;
   }
 }
 </style>

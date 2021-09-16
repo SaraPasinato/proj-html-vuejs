@@ -29,7 +29,8 @@ export default {
 <style lang="scss">
 @import "../assets/scss/vars";
 #get-started {
-  height: 40vh;
+
+  height: 60vh;
   width: 100%;
 
   background-image: url("../assets/images/business-people-working-together-on-project-and-B3MZ4TX.jpg");

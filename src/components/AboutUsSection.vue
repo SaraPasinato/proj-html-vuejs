@@ -8,7 +8,7 @@
                    <div class="line"/>
                    <h5> About us</h5>
                </div>
-               <h2> we make your strategy work</h2>
+               <h3> we make your strategy work</h3>
                <p>{{text}}</p>
            </div>
        </div>
@@ -45,10 +45,10 @@ export default {
 
             .items{
                 position: absolute;
-                width:50%;
+                width:60%;
                 height: 50%;
                 transform: translate(-50%,-50%);
-                top:40%;
+                top:35%;
                 left:35%;
 
 
@@ -60,7 +60,7 @@ export default {
                 }
                 p{
                     font-weight: normal;
-                    font-size: .9em;
+                    font-size: .8em;
                     padding: 0 2%;
                 }
                 .line-title{

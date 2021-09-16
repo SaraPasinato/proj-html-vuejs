@@ -30,7 +30,7 @@ export default {
 @import "../assets/scss/vars";
 #get-started {
 
-  height: 60vh;
+  height: 40vh;
   width: 100%;
 
   background-image: url("../assets/images/business-people-working-together-on-project-and-B3MZ4TX.jpg");

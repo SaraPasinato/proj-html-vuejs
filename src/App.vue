@@ -7,16 +7,18 @@
      <!-- Jumbotron component-->
     <Jumbotron/>
      <!-- section consultants component (cardGoal component )-->
-    <GoalsSection :cards="goalCard"/>
+    <GoalsSection :cards="goalCards"/>
      <!-- section about us component  -->
     <AboutUsSection  :text="textPlaceholder"/>
     <!--  section Help component-->
     <HelpSection :text="textPlaceholderSmall"/>
-     <!-- >>HERE<< section project component (figure card component)-->
+     <!-- >>HERE<< section project component ( cardFigure component)-->
+    
      <!-- section testimonial component ( testimonial card component) -->
      <!-- section blog component  (figure card component + (date + card component)-->
+    <BlogSection  :cards="blogCards"/>
      <!--section lets-talk component -->
-    <GetStartedSection />
+    <GetStartedSection/>
    </main>
    <!-- Footer (contains links Footer + TermsFooter)--->
    <footer class="container">
@@ -36,6 +38,7 @@ import GoalsSection from './components/GoalsSection.vue';
 import Jumbotron from './components/Jumbotron.vue';
 import AboutUsSection from './components/AboutUsSection.vue';
 import HelpSection from './components/HelpSection.vue';
+import BlogSection from './components/BlogSection.vue';
 
 export default {
   name: 'App',
@@ -45,6 +48,7 @@ export default {
     AboutUsSection,
     HelpSection,
     GetStartedSection,
+    BlogSection,
     FooterLink,
     FooterTerms,
     Jumbotron,
@@ -90,7 +94,7 @@ export default {
 
         },
       ],
-      goalCard:[
+      goalCards:[
         { 
           url:'cropped-cropped-icon-270x270.png',
           title:'Statistical consuliting',
@@ -111,6 +115,25 @@ export default {
           title:'Enterprise consuliting',
           desc:'When,while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable follage of my trees,and but a',
         },
+      ],
+      blogCards:[
+        { 
+          url:'startup-business-people-and-strategy-board-PAJ3P9K-1390x1042.jpg',
+          date:'july 4, 2019',
+          author:'paul',
+          title:'Canadian Consulting From acquired by UK Giant',
+          desc:'When,while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable follage of my trees,and but a...',
+        },
+       
+        { 
+          url:'business-people-working-together-on-project-and-B3MZ4TX.jpg',
+          date:'july 4, 2019',
+          author:'paul',
+          title:'Canadian Consulting From acquired by UK Giant',
+          desc:'When,while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable follage of my trees,and but a...',
+        },
+       
+        
       ],
     }
   },

@@ -42,7 +42,7 @@ export default {
     flex-wrap: wrap;
   }
    .line{
-       border: 1px solid $t-green;
+       border: 1px solid $bg-yellow;
        display: inline-block;
        width:50%;
        position: absolute;

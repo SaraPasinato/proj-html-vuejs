@@ -10,7 +10,7 @@
                <h1> the best business consulting</h1>
                <div class="btn-control">
                    <Button type="btn-green" title="Read more"/>
-                   <ButtonIcon type="btn-outline-green circle" icon="fas fa-play"/>
+                   <ButtonIcon type="btn-outline-yellow circle" icon="fas fa-play"/>
                </div>
            </div>
        </div>
@@ -70,7 +70,7 @@ export default {
                     align-items: center;
                 }
                .line{
-                  background-color:$t-green;
+                  background-color:$bg-yellow;
                   width:7%;
                   height: 2px;
                   margin-right: 10px;

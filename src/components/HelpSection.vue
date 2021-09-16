@@ -40,7 +40,7 @@ export default {
        width:80%;
        height: 80%;
        display: flex;
-       background-color:$bg-green;
+       background-color:$bg-yellow;
 
        .col-12{
            flex-basis: 100%;
@@ -57,7 +57,8 @@ export default {
         .btnEnd{
            position: absolute;
            bottom: -20px;
-           right: 0;
+           right: -10px;
+           
         }
         .box-item{
             width:35%;

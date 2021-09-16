@@ -68,7 +68,7 @@ export default {
                     align-items: center;
                 }
                .line{
-                  background-color:$t-green;
+                  background-color:$bg-yellow;
                   width:7%;
                   height: 2px;
                   margin-right: 10px;

@@ -1,40 +1,43 @@
 <template>
   <section id="project" class="container">
-       <div id="title" class="row">
+    <div id="title" class="row">
       <div class="col-12">
         <div class="line-item">
           <div class="line" />
           <h5>Project</h5>
         </div>
         <div class="line-item between">
-          <h3> Our expert trusted consultants help clients</h3>
+          <h3>Our expert trusted consultants help clients</h3>
           <div class="btn-items">
-              <ButtonIcon  type="btn-light-blue" icon="fas fa-arrow-left" />
-              <ButtonIcon  type="btn-light-blue" icon="fas fa-arrow-right" />
+            <ButtonIcon type="btn-light-blue" icon="fas fa-arrow-left" />
+            <ButtonIcon type="btn-light-blue" icon="fas fa-arrow-right" />
           </div>
         </div>
       </div>
+    </div>
+    <div id="gallery row">
+
     </div>
   </section>
 </template>
 
 <script>
-import ButtonIcon from '../components/ButtonIcon.vue';
+import ButtonIcon from "../components/ButtonIcon.vue";
 export default {
- name:'ProjectSection',
- components:{
-     ButtonIcon,
- }
-}
+  name: "ProjectSection",
+  components: {
+    ButtonIcon,
+  },
+};
 </script>
 
 <style lang="scss">
 @import "../assets/scss/vars";
 
-#project{
-    height: 50vh;
-    margin-bottom: 40px;
-     #title {
+#project {
+  height: 50vh;
+  margin-bottom: 40px;
+  #title {
     height: 20%;
     .col-12 {
       flex-basis: 100%;
@@ -50,7 +53,7 @@ export default {
         }
 
         .line {
-          background-color: $t-green;
+          background-color: $bg-yellow;
           width: 2%;
           height: 2px;
           margin-right: 10px;
@@ -61,10 +64,15 @@ export default {
       }
     }
 
-    .btn-items{
-        display: flex;
-        justify-content: center;
+    .btn-items {
+      display: flex;
+      justify-content: center;
     }
-     }
+  }
+
+  #gallery{
+      height: 80%;
+      background-color: peachpuff;
+  }
 }
 </style>

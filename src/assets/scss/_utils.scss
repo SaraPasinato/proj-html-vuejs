@@ -100,7 +100,12 @@ hr{
 .btn-green{
     background-color: $bg-green;
     color: $t-dark-blue;
-    border-color: $t-green;
+    border-color: $bg-light;
+}
+.btn-green{
+    background-color: $bg-yellow;
+    color: $t-dark-blue;
+    border-color: $bg-yellow;
 }
 .btn-red{
     background-color: $bg-red;
@@ -111,6 +116,12 @@ hr{
 .btn-outline-green{
     background-color: $bg-blue-dark;
     color: $t-green;
+    border: 1px solid $border-light;
+}
+
+.btn-outline-yellow{
+    background-color: $bg-blue-dark;
+    color: $bg-yellow;
     border: 1px solid $border-light;
 }
 

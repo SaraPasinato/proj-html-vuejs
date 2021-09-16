@@ -52,7 +52,7 @@ export default {
         }
 
         .line {
-          background-color: $t-green;
+          background-color: $bg-yellow;
           width: 2%;
           height: 2px;
           margin-right: 10px;

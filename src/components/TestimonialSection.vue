@@ -1,6 +1,6 @@
 <template>
-  <section id="testimonial" class="container">
- <div id="title" class="row">
+  <section id="testimonial" >
+ <div id="title" class="row container">
       <div class="col-12">
         <div class="line-item">
           <h5>Testimonial</h5>
@@ -12,13 +12,20 @@
         </div>
       </div>
     </div>
+ <div id="gallery" class="row">
+        <CardText v-for="card in cards" :key="card.title" :card="card" />      
+ </div>
   </section>
 </template>
 
 <script>
+import CardText from '../components/CardText.vue';
 export default {
     name:"TestimonialSection",
     props:['cards'],
+    components:{
+        CardText,
+    }
 }
 </script>
 
@@ -27,7 +34,6 @@ export default {
 
 #testimonial{
     height: 50vh;
-    background-color: palevioletred;
     margin-bottom: 80px;
 
     #title {
@@ -52,6 +58,15 @@ export default {
         }
       }
 
+    }
+
+    #gallery{
+        height: 60%;
+        margin-left:20%;
+        width:80%;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: $bg-light;
     }
     .row {
     display: flex;

@@ -15,7 +15,7 @@
      <!-- section project component ( cardFigure component)-->
     
      <!-- section testimonial component ( testimonial card component) -->
-     <TestimonialSection />
+     <TestimonialSection :cards="userCards"/>
      <!-- section blog component  (figure BlogCard component )-->
     <BlogSection  :cards="blogCards"/>
      <!--section lets-talk component -->
@@ -137,6 +137,26 @@ export default {
         },
        
         
+      ],
+      userCards:[
+        { 
+          team:'Amazon Inc.',
+          author:'Vera Ducan',
+          title:'Canadian Consulting From acquired by UK Giant',
+          desc:'When,while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable follage of my trees,and but a...',
+        },
+        { 
+          team:'Amazon Inc.',
+          author:'Vera Ducan',
+          title:'Canadian Consulting From acquired by UK Giant',
+          desc:'When,while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable follage of my trees,and but a...',
+        },
+        { 
+          team:'Amazon Inc.',
+          author:'Vera Ducan',
+          title:'Canadian Consulting From acquired by UK Giant',
+          desc:'When,while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable follage of my trees,and but a...',
+        },  
       ],
     }
   },

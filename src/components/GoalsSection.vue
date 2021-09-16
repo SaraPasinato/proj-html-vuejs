@@ -1,7 +1,8 @@
 <template>
   <section id="goals">
     <div class="container-sm">
-      <h4>Our consultants can help you</h4>
+      <h4>Our consultants can help you </h4>
+      <hr class="line">
       <div class="row">
        <CardGoal v-for="card in cards" :key="card.title" :item="card"/>
     
@@ -29,6 +30,7 @@ export default {
   width: 100%;
   padding: 50px 0;
   background-color: $bg-light;
+  position: relative;
 
   .row {
     height: 60vh;
@@ -38,9 +40,14 @@ export default {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-
-  
   }
-  
+   .line{
+       border: 1px solid $t-green;
+       display: inline-block;
+       width:50%;
+       position: absolute;
+       right:0;
+       top:8.5%;
+   }
 }
 </style>

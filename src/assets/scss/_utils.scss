@@ -92,6 +92,11 @@ hr{
     background-color: $bg-blue-dark;
     color: $t-light-gray;
 }
+.btn-light-blue{
+    background-color: $bg-blue-light;
+    color: $t-light-gray;
+    border: 1px solid $bg-blue-light;
+}
 .btn-green{
     background-color: $bg-green;
     color: $t-dark-blue;

@@ -13,7 +13,7 @@
     <!--  section Help component-->
     <HelpSection :text="textPlaceholderSmall"/>
      <!-- section project component ( cardFigure component)-->
-    
+    <ProjectSection />
      <!-- section testimonial component ( testimonial card component) -->
      <TestimonialSection :cards="userCards"/>
      <!-- section blog component  (figure BlogCard component )-->
@@ -41,6 +41,7 @@ import AboutUsSection from './components/AboutUsSection.vue';
 import HelpSection from './components/HelpSection.vue';
 import BlogSection from './components/BlogSection.vue';
 import TestimonialSection from './components/TestimonialSection.vue';
+import ProjectSection from './components/ProjectSection.vue';
 
 export default {
   name: 'App',
@@ -55,6 +56,7 @@ export default {
     FooterTerms,
     Jumbotron,
     TestimonialSection,
+    ProjectSection,
   },
   data(){
     return{

@@ -77,7 +77,7 @@ li a.active{
 .btn{
    padding: 15px 50px;
    text-transform: uppercase;
-   border: 2px solid $bg-blue-dark;
+   border: 3px solid $bg-blue-dark;
    margin: 20px 10px;
    cursor: pointer;
 }
@@ -129,4 +129,15 @@ li a.active{
 .circle{
     border-radius: 50%;
 }
-
+//** HOVER **/
+.btn-icon:hover{
+    border-color: $t-dark-blue;
+    background-color: $bg-red-dark;
+    color: $t-light;
+}
+.btn:hover{
+   border-color: $t-dark-blue;
+   border-width: 3px;
+   background-color: $bg-red-dark;
+   color: $t-light;
+}

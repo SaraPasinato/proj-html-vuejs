@@ -32,7 +32,7 @@ export default {
 @import "../assets/scss/vars";
 
 #testimonial {
-  height: 50vh;
+  height: 60vh;
   margin-bottom: 80px;
 
   #title {

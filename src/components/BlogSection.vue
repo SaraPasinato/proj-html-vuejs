@@ -35,6 +35,7 @@ export default {
 <style lang="scss">
 @import "../assets/scss/vars";
 #blog {
+  margin-top:100px;
   height: 80vh;
   #title {
     height: 20%;

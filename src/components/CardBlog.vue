@@ -44,7 +44,7 @@ export default {
     background-color: $bg-light;
     box-shadow: 3px 3px 30px $bg-gray-dark-1;
     right: 0;
-    padding: 20px 50px;
+    padding: 20px 20%;
 
     p {
       color: $t-gray-6;

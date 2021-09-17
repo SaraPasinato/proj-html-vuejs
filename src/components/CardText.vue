@@ -1,9 +1,9 @@
 <template>
-  <div class="card">
+  <div class="card-client">
     <div class="items">
       <blockquote>{{ card.desc }}</blockquote>
       <cite>{{ card.author }}</cite>
-      <small>{{ card.team }}</small>  
+      <small class="team">{{ card.team }}</small>  
     </div>
     <div class="laydown">
       <img :src="getImage" :alt="card.author">
@@ -26,7 +26,7 @@ export default {
 <style lang="scss">
 @import "../assets/scss/vars";
 
-.card {
+.card-client {
   position: relative;
   flex-basis: 23%;
   height: 82%;
@@ -43,7 +43,7 @@ export default {
     padding: 0 15%;
 
     blockquote{
-      margin-bottom:30px;
+      margin-bottom:20px;
       font-style: normal;
       color: $t-gray-7;
       font-size: small;
@@ -52,7 +52,7 @@ export default {
       font-weight: lighter;
     }
 
-    small{
+    small .team{
        color: $t-gray-7;
     }
   }
@@ -73,17 +73,17 @@ export default {
   }
 }
 
-.card:hover .laydown {
+.card-client:hover .laydown {
   display: block;
 }
 
-.card:hover  small,
-.card:hover  blockquote{
+.card-client:hover  small .team,
+.card-client:hover  blockquote{
    color: $t-gray-1;
    font-weight: normal;
-   line-height: 20px;
+   line-height: 15px;
 }
-.card:hover cite{
+.card-client:hover cite{
    color: $t-light;
    font-weight: bolder;
    font-size: 20px;

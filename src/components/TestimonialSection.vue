@@ -66,7 +66,7 @@ export default {
     justify-content: flex-end;
     align-items: center;
     background-color: $bg-light;
-    padding-left: 10px;
+    
   }
   .row {
     display: flex;

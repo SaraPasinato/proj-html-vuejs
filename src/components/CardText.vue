@@ -28,8 +28,8 @@ export default {
 
 .card-client {
   position: relative;
-  flex-basis: 23%;
-  height: 82%;
+  flex-basis: 30%;
+  height: 100%;
   // margin: 0 20px;
 
   .items {

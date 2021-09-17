@@ -36,7 +36,7 @@ export default {
 <style lang="scss">
 @import "../assets/scss/vars";
 #jumbotron {
-  height: 90vh;
+  height: 100vh;
   position: relative;
 
   .row {

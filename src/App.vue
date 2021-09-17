@@ -1,8 +1,8 @@
 <template>
   <div id="app">
    <!--Header component contai >> TODO: fix header --->
-<!--  <Header :links="links"/>
- -->   <!-- main--->
+   <Header :links="links"/>
+  <!-- main--->
    <main>
      <!-- Jumbotron component-->
     <Jumbotron/>
@@ -31,7 +31,7 @@
 </template>
 
 <script>
-//import Header from './components/Header.vue';
+import Header from './components/Header.vue';
 import FooterLink from './components/FooterLink.vue';
 import FooterTerms from './components/FooterTerms.vue';
 import GetStartedSection from './components/GetStartedSection.vue';
@@ -46,7 +46,7 @@ import ProjectSection from './components/ProjectSection.vue';
 export default {
   name: 'App',
   components: {
-   // Header,
+    Header,
     GoalsSection,
     AboutUsSection,
     HelpSection,
@@ -186,6 +186,7 @@ export default {
 @import '/assets/scss/style.scss';
 #app{
   position: relative;
+  width: 100%;
 }
 
 footer{

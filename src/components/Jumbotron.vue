@@ -46,7 +46,7 @@ export default {
         }
        
         .col-6{ 
-            width: 1000px; 
+            width: calc(100%/2); 
                position: relative;
 
             .items{

@@ -1,14 +1,12 @@
 <template>
-  <header  class="container">
-    <div class="row">
+  <header>
+    <div class="row container">
       <img src="../assets/images/logotype.png" alt="logo phlox" />
       <ul class="row">
-        <li
-          v-for="(link, index) in links"
-          :key="link.title + index"
-          
-        >
-          <a :href="link.link" :class="{ active: link.current }">{{ link.title }}</a>
+        <li v-for="(link, index) in links" :key="link.title + index">
+          <a :href="link.link" :class="{ active: link.current }">{{
+            link.title
+          }}</a>
         </li>
       </ul>
     </div>
@@ -19,7 +17,7 @@
 export default {
   name: "Header",
   props: ["links"],
-  //TODO: set active on click 
+  //TODO: set active on click
 };
 </script>
 
@@ -30,11 +28,11 @@ header {
   height: 10vh;
   position: absolute;
   top: 0;
-  left: 100px;
+  left: 0;
   width: 100%;
   z-index: 1;
+  background-color: transparent;
 
-  
   .row {
     height: 100%;
     display: flex;
@@ -46,7 +44,7 @@ header {
     width: 7%;
   }
 
-  li a .active{
+  li a .active {
     color: $t-light;
   }
 }

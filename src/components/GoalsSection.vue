@@ -3,6 +3,7 @@
     <div class="container-sm">
       <h4>Our consultants can help you</h4>
       <hr class="line" />
+      <!-- row with dynamics components CardGoal  -->
       <div class="row">
         <CardGoal v-for="card in cards" :key="card.title" :item="card" />
       </div>

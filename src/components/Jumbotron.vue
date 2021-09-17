@@ -1,6 +1,7 @@
 <template>
   <section id="jumbotron" class="container-fluid">
     <div class="row">
+      <!-- contains typing + btn control -->
       <div class="col-6">
         <div class="items">
           <div class="line-title">
@@ -14,6 +15,7 @@
           </div>
         </div>
       </div>
+      <!-- contains only jumbotron background -->
       <div class="col jumbo-bg" />
     </div>
   </section>

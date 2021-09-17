@@ -9,7 +9,7 @@
                </div>
                <h1> the best business consulting</h1>
                <div class="btn-control">
-                   <Button type="btn-green" title="Read more"/>
+                   <Button type="btn-yellow" title="Read more"/>
                    <ButtonIcon type="btn-outline-yellow circle" icon="fas fa-play"/>
                </div>
            </div>
@@ -68,6 +68,8 @@ export default {
                 .line-title{
                     display: flex;
                     align-items: center;
+                    max-width:70%;
+                    flex-wrap: nowrap;
                 }
                .line{
                   background-color:$bg-yellow;

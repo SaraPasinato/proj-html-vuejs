@@ -26,9 +26,9 @@ export default {
 <style lang="scss">
 @import "../assets/scss/vars";
 #goals {
-  height: 80vh;
+  height: 90vh;
   width: 100%;
-  padding: 80px 0;
+  padding: 50px 0;
   background-color: $bg-light;
   position: relative;
 
@@ -46,7 +46,7 @@ export default {
        width:40%;
        position: absolute;
        right:0;
-       top:12.5%;
+       top:10.5%;
    }
 }
 </style>

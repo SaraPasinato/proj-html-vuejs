@@ -28,6 +28,7 @@ export default {
 <style lang="scss">
 @import "../assets/scss/vars";
 #about-us{
+   
     height: 60vh;
     position: relative;
     

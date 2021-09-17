@@ -15,7 +15,7 @@
         </div>
       </div>
     </div>
-    <div id="gallery" class="row container">
+    <div id="gallery" class="row container-sm">
       <CardProject  :key="index" v-for="(card,index) in cards" :card="card"/>
     </div>
   </section>

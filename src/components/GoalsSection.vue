@@ -34,7 +34,7 @@ export default {
 
   .row {
     height: 60vh;
-    margin-top: 5em;
+    margin-top: 100px;
 
     display: flex;
     justify-content: center;
@@ -46,7 +46,7 @@ export default {
        width:40%;
        position: absolute;
        right:0;
-       top:10.5%;
+       top: 70px;
    }
 }
 </style>

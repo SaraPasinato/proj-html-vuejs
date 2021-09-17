@@ -46,11 +46,11 @@ export default {
 
             .items{
                 position: absolute;
-                width:60%;
+                width:65%;
                 height: 50%;
                 transform: translate(-50%,-50%);
                 top:35%;
-                left:35%;
+                left:50%;
 
 
                 h5{

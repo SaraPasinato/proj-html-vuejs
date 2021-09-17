@@ -55,6 +55,7 @@ export default {
 
     .logo{
         width: 7%;
+        cursor: pointer;
     }
 }
 </style>

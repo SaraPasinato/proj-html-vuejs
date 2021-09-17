@@ -51,6 +51,7 @@ header {
 
   img {
     width: 7%;
+    cursor: pointer;
   }
 
   li a .active {

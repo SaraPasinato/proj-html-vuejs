@@ -1,5 +1,6 @@
 <template>
   <header>
+    <!-- contain links and logo -->
     <div class="row container">
       <img src="../assets/images/logotype.png" alt="logo phlox" />
       <ul class="row">
@@ -28,6 +29,7 @@ export default {
     };
   },
   methods: {
+    /** set current index to index link */
     setCurrentIndex(index) {
       this.currentIndex = index;
     },

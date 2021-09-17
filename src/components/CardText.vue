@@ -24,7 +24,7 @@ export default {
   height: 70%;
   margin: 0 20px;
   .items {
-    padding: 10% 15%;
+    padding: 0 15%;
 
     blockquote{
       margin-bottom:30px;

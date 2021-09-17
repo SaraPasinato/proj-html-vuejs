@@ -1,6 +1,6 @@
 <template>
-  <section id="project" class="container">
-    <div id="title" class="row">
+  <section id="project" >
+    <div id="title" class="row container-sm">
       <div class="col-12">
         <div class="line-item">
           <div class="line" />
@@ -15,7 +15,7 @@
         </div>
       </div>
     </div>
-    <div id="gallery" class="row">
+    <div id="gallery" class="row container">
       <CardProject  :key="index" v-for="(card,index) in cards" :card="card"/>
     </div>
   </section>

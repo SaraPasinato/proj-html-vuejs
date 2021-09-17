@@ -1,6 +1,6 @@
 <template>
-  <section id="blog" class="container">
-    <div id="title" class="row">
+  <section id="blog" class="">
+    <div id="title" class="row container-sm">
       <div class="col-12">
         <div class="line-item">
           <div class="line" />
@@ -8,11 +8,11 @@
         </div>
         <div class="line-item between">
           <h3>the recent news you must read it</h3>
-          <Button title="Veiw all" type="btn-green" />
+          <Button title="Veiw all" type="btn-yellow" />
         </div>
       </div>
     </div>
-    <div id="gallery" class="row">
+    <div id="gallery" class="row container">
       <!-- BlogCard -->
       <CardBlog v-for="card in cards" :key="card.url" :card="card"/>
     </div>
@@ -67,6 +67,7 @@ export default {
   #gallery {
     height: 60%;
     justify-content: center;
+    margin-top:30px;
   }
   .row {
     display: flex;

@@ -29,7 +29,7 @@ export default {
 @import "../assets/scss/vars";
 #about-us{
    
-    height: 60vh;
+    height: 70vh;
     position: relative;
     
     .row{

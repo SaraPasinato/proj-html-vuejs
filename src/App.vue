@@ -22,7 +22,7 @@
     <GetStartedSection/>
    </main>
    <!-- Footer (contains links Footer + TermsFooter)--->
-   <footer class="container">
+   <footer class="container-sm">
     <FooterLink :links="links"/>
     <hr>
     <FooterTerms/>

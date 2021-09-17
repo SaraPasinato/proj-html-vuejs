@@ -2,9 +2,7 @@
   <div class="card">
     <img :src="getImage" />
     <div class="box">
-      <small
-        >{{ card.date }} by <span>{{ card.author }}</span></small
-      >
+      <small>{{ card.date }} by <span>{{ card.author }}</span></small>
       <h6>{{ card.title }}</h6>
       <p>{{ card.desc }}</p>
     </div>
@@ -30,7 +28,7 @@ export default {
   position: relative;
   text-align: justify;
   flex-basis: calc(100% / 4);
-  height: 70%;
+  height: 80%;
   background-color: $bg-light;
   margin: 0 10px;
 
@@ -39,13 +37,13 @@ export default {
     height: 100%;
   }
   .box {
-    height: 60%;
-    width: 80%;
+    height: 80%;
+    width: 90%;
     position: absolute;
-    bottom: -20%;
+    bottom: -40%;
     background-color: $bg-light;
     right: 0;
-    padding: 30px 50px;
+    padding: 20px 50px;
 
     p {
       color: $t-gray-6;

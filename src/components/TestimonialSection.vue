@@ -1,6 +1,6 @@
 <template>
   <section id="testimonial" >
- <div id="title" class="row container">
+ <div id="title" class="row container-sm">
       <div class="col-12">
         <div class="line-item">
           <h5>Testimonial</h5>
@@ -12,7 +12,7 @@
         </div>
       </div>
     </div>
- <div id="gallery" class="row">
+ <div id="gallery" class="row container">
         <CardText v-for="(card,index) in cards" :key="index" :card="card" />      
  </div>
   </section>
@@ -61,9 +61,9 @@ export default {
     }
 
     #gallery{
-        height: 60%;
+        height: 70%;
         margin-left:20%;
-        margin-top: 30px;
+        margin-top: 40px;
         width:80%;
         justify-content: flex-end;
         align-items: center;

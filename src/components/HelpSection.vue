@@ -61,7 +61,7 @@ export default {
            
         }
         .box-item{
-            width:35%;
+            flex-basis:50%;
             text-align: start;
         }
         .col-6{

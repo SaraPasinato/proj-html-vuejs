@@ -55,7 +55,7 @@ export default {
                 height: 50%;
                 transform: translate(-50%,-50%);
                 top:50%;
-                left:80%;
+                left:60%;
 
 
                 h5{
@@ -68,8 +68,9 @@ export default {
                 .line-title{
                     display: flex;
                     align-items: center;
-                    max-width:70%;
+                    max-width:100%;
                     flex-wrap: nowrap;
+                    flex-shrink: 1;
                 }
                .line{
                   background-color:$bg-yellow;

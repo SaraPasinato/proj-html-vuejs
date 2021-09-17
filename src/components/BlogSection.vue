@@ -14,7 +14,7 @@
     </div>
     <div id="gallery" class="row container">
       <!-- BlogCard -->
-      <CardBlog v-for="card in cards" :key="card.url" :card="card"/>
+      <CardBlog v-for="card in cards" :key="card.url" :card="card" />
     </div>
   </section>
 </template>
@@ -35,7 +35,7 @@ export default {
 <style lang="scss">
 @import "../assets/scss/vars";
 #blog {
-  margin-top:100px;
+  margin-top: 100px;
   height: 80vh;
   #title {
     height: 20%;
@@ -68,11 +68,10 @@ export default {
   #gallery {
     height: 60%;
     justify-content: center;
-    margin-top:30px;
+    margin-top: 30px;
   }
   .row {
     display: flex;
   }
-  
 }
 </style>

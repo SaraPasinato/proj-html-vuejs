@@ -1,5 +1,5 @@
 <template>
-  <section id="project" >
+  <section id="project">
     <div id="title" class="row container-sm">
       <div class="col-12">
         <div class="line-item">
@@ -16,7 +16,7 @@
       </div>
     </div>
     <div id="gallery" class="row container-sm">
-      <CardProject  :key="index" v-for="(card,index) in cards" :card="card"/>
+      <CardProject :key="index" v-for="(card, index) in cards" :card="card" />
     </div>
   </section>
 </template>
@@ -26,7 +26,7 @@ import ButtonIcon from "../components/ButtonIcon.vue";
 import CardProject from "../components/CardProject.vue";
 export default {
   name: "ProjectSection",
-  props:['cards'],
+  props: ["cards"],
   components: {
     ButtonIcon,
     CardProject,
@@ -72,14 +72,14 @@ export default {
       justify-content: center;
     }
   }
-  #gallery{
-      margin-top: 5%;
-      height: 70%;
-      align-items: center;
-      justify-content: center;
+  #gallery {
+    margin-top: 5%;
+    height: 70%;
+    align-items: center;
+    justify-content: center;
   }
 
-  .row{
+  .row {
     display: flex;
   }
 }

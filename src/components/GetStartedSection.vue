@@ -4,12 +4,11 @@
       <div class="col">
         <h3>Let's talk about work</h3>
         <div class="items">
-            <p>
-              A wonderful serenity has taken possession
-              Far far away, behaind the
-              word mountains.
-            </p>
-           <Button title='get started' type="btn-dark"/>
+          <p>
+            A wonderful serenity has taken possession Far far away, behaind the
+            word mountains.
+          </p>
+          <Button title="get started" type="btn-dark" />
         </div>
       </div>
     </div>
@@ -17,10 +16,10 @@
 </template>
 
 <script>
-import Button from './Button.vue';
+import Button from "./Button.vue";
 export default {
   name: "GetStartedSection",
-  components:{
+  components: {
     Button,
   },
 };
@@ -29,7 +28,6 @@ export default {
 <style lang="scss">
 @import "../assets/scss/vars";
 #get-started {
-
   height: 40vh;
   width: 100%;
 
@@ -45,15 +43,11 @@ export default {
     align-items: center;
     flex-wrap: wrap;
 
-     .col{
-       
-       .items{
-           padding: 0 15%;
-
-       }
+    .col {
+      .items {
+        padding: 0 15%;
+      }
     }
   }
-
- 
 }
 </style>

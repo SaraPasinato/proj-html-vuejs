@@ -136,22 +136,22 @@ export default {
         },
       ],
       userCards: [
-        { 
-          url:'oliver-ragfelt-488196-2.jpg',
+        {
+          url: "oliver-ragfelt-488196-2.jpg",
           team: "Amazon Inc.",
           author: "Vera Ducan",
           title: "Canadian Consulting From acquired by UK Giant",
           desc: "When,while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable follage of my trees,and but a thousand unknown plants are noticed when I hear the buzz of the little",
         },
         {
-           url:'oliver-ragfelt-488196-unsplash.jpg',
+          url: "oliver-ragfelt-488196-unsplash.jpg",
           team: "Amazon Inc.",
           author: "Vera Ducan",
           title: "Canadian Consulting From acquired by UK Giant",
           desc: "When,while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable follage of my trees,and but a thousand unknown plants are noticed when I hear the buzz of the little",
         },
         {
-          url:'12679.jpg',
+          url: "12679.jpg",
           team: "Amazon Inc.",
           author: "Vera Ducan",
           title: "Canadian Consulting From acquired by UK Giant",

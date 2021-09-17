@@ -3,10 +3,10 @@
     <div class="items">
       <blockquote>{{ card.desc }}</blockquote>
       <cite>{{ card.author }}</cite>
-      <small class="team">{{ card.team }}</small>  
+      <small class="team">{{ card.team }}</small>
     </div>
     <div class="laydown">
-      <img :src="getImage" :alt="card.author">
+      <img :src="getImage" :alt="card.author" />
     </div>
   </div>
 </template>
@@ -30,7 +30,7 @@ export default {
   position: relative;
   flex-basis: 23%;
   height: 82%;
- // margin: 0 20px;
+  // margin: 0 20px;
 
   .items {
     position: absolute;
@@ -42,8 +42,8 @@ export default {
     height: 100%;
     padding: 0 15%;
 
-    blockquote{
-      margin-bottom:20px;
+    blockquote {
+      margin-bottom: 20px;
       font-style: normal;
       color: $t-gray-7;
       font-size: small;
@@ -52,12 +52,12 @@ export default {
       font-weight: lighter;
     }
 
-    small .team{
-       color: $t-gray-7;
+    small .team {
+      color: $t-gray-7;
     }
   }
 
-  .laydown{
+  .laydown {
     display: none;
     position: absolute;
     top: 0;
@@ -65,7 +65,7 @@ export default {
     width: 100%;
     height: 100%;
 
-    img{
+    img {
       width: 100%;
       height: 100%;
       opacity: 0.9;
@@ -77,15 +77,15 @@ export default {
   display: block;
 }
 
-.card-client:hover  small .team,
-.card-client:hover  blockquote{
-   color: $t-gray-1;
-   font-weight: normal;
-   line-height: 15px;
+.card-client:hover small .team,
+.card-client:hover blockquote {
+  color: $t-gray-1;
+  font-weight: normal;
+  line-height: 15px;
 }
-.card-client:hover cite{
-   color: $t-light;
-   font-weight: bolder;
-   font-size: 20px;
+.card-client:hover cite {
+  color: $t-light;
+  font-weight: bolder;
+  font-size: 20px;
 }
 </style>

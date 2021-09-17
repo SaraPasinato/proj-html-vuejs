@@ -3,7 +3,12 @@
     <div class="row container">
       <img src="../assets/images/logotype.png" alt="logo phlox" />
       <ul class="row">
-        <li v-for="(link, index) in links" :key="link.title + index" @click="setCurrentIndex(index)" @click.left="$emit('choose',currentIndex)"  >
+        <li
+          v-for="(link, index) in links"
+          :key="link.title + index"
+          @click="setCurrentIndex(index)"
+          @click.left="$emit('choose', currentIndex)"
+        >
           <a :href="link.link" :class="{ active: link.current }">{{
             link.title
           }}</a>
@@ -17,16 +22,16 @@
 export default {
   name: "Header",
   props: ["links"],
-  data(){
-    return{
-      currentIndex:null,
-    }
+  data() {
+    return {
+      currentIndex: null,
+    };
   },
-  methods:{
-    setCurrentIndex(index){
-      this.currentIndex=index;
+  methods: {
+    setCurrentIndex(index) {
+      this.currentIndex = index;
     },
-  }
+  },
 };
 </script>
 

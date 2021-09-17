@@ -2,7 +2,9 @@
   <div class="card">
     <img :src="getImage" />
     <div class="box">
-      <small>{{ card.date }} by <span>{{ card.author }}</span></small>
+      <small
+        >{{ card.date }} by <span>{{ card.author }}</span></small
+      >
       <h6>{{ card.title }}</h6>
       <p>{{ card.desc }}</p>
     </div>

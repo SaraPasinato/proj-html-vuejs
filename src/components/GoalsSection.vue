@@ -1,11 +1,10 @@
 <template>
   <section id="goals">
     <div class="container-sm">
-      <h4>Our consultants can help you </h4>
-      <hr class="line">
+      <h4>Our consultants can help you</h4>
+      <hr class="line" />
       <div class="row">
-       <CardGoal v-for="card in cards" :key="card.title" :item="card"/>
-    
+        <CardGoal v-for="card in cards" :key="card.title" :item="card" />
       </div>
     </div>
   </section>
@@ -16,7 +15,7 @@ import CardGoal from "./CardGoal.vue";
 
 export default {
   name: "GoalsSection",
-  props:["cards"],
+  props: ["cards"],
   components: {
     CardGoal,
   },
@@ -41,12 +40,12 @@ export default {
     align-items: center;
     flex-wrap: wrap;
   }
-   .line{
-       border: 1px solid $bg-yellow;
-       width:40%;
-       position: absolute;
-       right:0;
-       top: 70px;
-   }
+  .line {
+    border: 1px solid $bg-yellow;
+    width: 40%;
+    position: absolute;
+    right: 0;
+    top: 70px;
+  }
 }
 </style>

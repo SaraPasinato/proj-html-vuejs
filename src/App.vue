@@ -1,7 +1,7 @@
 <template>
   <div id="app">
    <!--Header component contai >> TODO: fix header --->
-   <Header :links="links"/>
+   <Header :links="links" @choose="setActive"/>
   <!-- main--->
    <main>
      <!-- Jumbotron component-->
@@ -65,36 +65,36 @@ export default {
       links:[
         {
           title:'home',
-          link:'#',
+          link:'#jumbotron',
           current:true,
         },
         {
           title:'about',
-          link:'#',
+          link:'#about-us',
           current:false,
 
         },
         {
           title:'product',
-          link:'#',
+          link:'#project',
           current:false,
           
         },
         {
           title:'services',
-          link:'#',
+          link:'#goals',
           current:false,
 
         },
         {
           title:'blog',
-          link:'#',
+          link:'#blog',
           current:false,
 
         },
         {
           title:'contact',
-          link:'#',
+          link:'#get-started',
           current:false,
 
         },
@@ -177,6 +177,13 @@ export default {
           category:'web',
         },
       ],
+    }
+  },
+  methods:{
+    setActive(index){
+      //setto tutti i current a false 
+      this.links.forEach(el=>{el.current=false; });
+     this.links[index].current=!this.links[index].current;
     }
   },
 }

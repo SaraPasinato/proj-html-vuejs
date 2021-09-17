@@ -178,6 +178,10 @@ export default {
     };
   },
   methods: {
+    /**
+     *  @param index set current index in emit 
+     *  take all current to false and  only index true
+     */
     setActive(index) {
       //setto tutti i current a false
       this.links.forEach((el) => {
